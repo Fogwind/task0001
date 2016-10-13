@@ -1,2 +1,3 @@
 # task0001
-learn div+css
+一个个人博客网站的静态页面
+用来学习CSS布局
