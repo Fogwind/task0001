@@ -1,0 +1,284 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: SimSun;
+	background-color: #D3D3D3;
+}
+/*************头部导航条样式**************/
+#header{
+   height: 80px;
+   background-color: #003377;
+   position: relative;
+   overflow: hidden;
+   min-width: 980px;
+}
+#githublogo{
+	position: absolute;
+	bottom: -2.5px;
+	right: 10px;
+}
+
+#nav{
+	position: relative;
+	height: 80px;
+	width: 980px;
+	margin: auto;
+}
+
+#mylogo{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+}
+#navbar{
+	list-style: none;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+#navbar li{
+	display: inline;
+	font-size: 14px;
+	margin-left: 28px;
+}
+.navlink{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/*************footer导航条样式**************/
+#footer{
+	background-color: #000000;
+	font-size: 14px;
+	color: #FFFFFF;
+	min-width: 980px;
+}
+#footernavbar{
+	border-bottom: solid #696969 1px;
+	font-size: 14px;
+	padding: 0.5em;
+	list-style: none;
+	text-align: center;
+}
+#footernavbar li{
+	display: inline;
+	margin-left: 28px;
+}
+#reference{
+	overflow: hidden;
+	padding-top: 40px; 
+	width: 980px;
+	margin: auto;
+}
+ul.referencenav{
+	float: left;
+	list-style: none;
+	margin-right: 130px;
+}
+ul.referencenav li{
+	margin-bottom: 14px;
+}
+ul.referencenav h4{
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+a.referencelink{
+	color: #FFFFFF;
+	
+}
+#footermassage{
+	text-align: center;
+	margin-top: 100px;
+}
+#footermassage p{
+	margin-bottom: 28px;
+}
+
+/*************主页正文部分样式**************/
+#mainsection{
+	overflow: hidden;
+	padding-top: 30px;
+	width: 1140px;
+	margin: auto;
+}
+/*****文章摘要列表样式******/
+#articlesection{
+	float: left;
+	width: 710px;
+	margin-left: 80px;
+	margin-right: 10px;
+}
+.article{
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+	padding: 20px 10px 10px 20px;
+	position: relative;
+}
+.tagbox{
+	position: absolute;
+	width: 80px;
+	right: 710px;
+	color: #FFFFFF;
+}
+.datetag{
+	background-color: #003377;
+	text-align: center;
+	font-size: 14px;
+	padding: 6px;
+}
+.contenttag{
+	background-color: #0066FF;
+	text-align: center;
+	font-size: 14px;
+	padding: 6px;
+}
+.article h2{
+	font-size: 16px;
+	color: 	#0066FF;
+	margin-bottom: 10px;
+}
+.article h3{
+	font-size: 12px;
+	color: 	#666;
+	margin-bottom: 10px;
+}
+.article p{
+	text-indent: 2em;
+	font-size: 12px;
+	line-height: 170%;
+}
+.article p.timestamp{
+	text-align: right;
+	color: #A9A9A9;
+	margin-top: 20px;
+}
+
+#siderbarsection{
+	float: left;
+	width: 260px;
+}
+/******文章列表下部页码样式******/
+div#pagenumberbox{
+	margin-bottom: 20px;
+}
+ol#pagenumber{
+	list-style: none;
+	font-size: 14px;
+	width: 581px;
+	margin: auto;
+	overflow: hidden;
+}
+#pagenumber li{
+	float: left;
+	margin-right: 10px;
+}
+a.pagelink{
+	display: block;
+	padding: 15px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	color: black;
+}
+li#lastpage{
+	margin: 0;
+}
+a.pagelink:hover{
+	background-color: #0066FF;
+	color: #FFFFFF;
+}
+/******搜索框样式******/
+#searchbox{
+	margin-bottom: 10px;
+	background-color: #FFFFFF;
+	height: 80px;
+	border: solid #FFFFFF 2px;
+}
+#searchform{
+	margin: 18px;
+}
+fieldset#search{
+	position: relative;
+	border: solid #A9A9A9 1px;
+	overflow: hidden;
+	
+}
+input#searchwords{
+	position: absolute;
+	width: 134px;
+	height: 44px;
+	left: 42px;
+	top: 0;
+	border: none;
+	color: #A9A9A9;
+}
+input#go{
+	position: absolute;
+	height: 47px;
+	width: 42px;
+	font-size: 18px;
+	border: none;
+	right: 0;
+	top: 0;
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+}
+/******导航栏样式******/
+div#sidernavcase{
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+}
+#sidernav{
+	list-style: none;
+}
+a.sidernavlink{
+	display: block;
+	background-image: url(../img/colorbar2.png);
+	border-bottom: solid #A9A9A9 1px;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 1em;
+	color: #808080;
+}
+a.sidernavlink:hover{
+	background-image: url(../img/colorbar1.png);
+}
+
+/******日历样式******/
+#datebox{
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+	font-size: 14px;
+	padding: 20px 0;
+}
+#datetable{
+	margin: 0 auto 0 auto;
+	border-spacing:0;
+}
+#datetable caption{
+	color: #003377;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 0.4em;
+}
+#datetable th,#datetable td{
+	font-weight: normal;
+	color: #808080;
+	text-align: center;
+	padding: 0.6em 0.4em;
+	border-bottom: solid #DDDDDD 1px;
+} 
+td#seclected{
+	background-color: #003377;
+	color: #FFFFFF;
+}
+a#pre{
+	float: left;
+	color: #003377;
+	text-decoration: none;
+}
+a#next{
+	float: right;
+	color: #003377;
+	text-decoration: none;
+}

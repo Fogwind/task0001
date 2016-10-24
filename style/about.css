@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: SimSun;
+	background-color: #D3D3D3;
+}
+/*************头部导航条样式**************/
+#header{
+   height: 80px;
+   background-color: #003377;
+   position: relative;
+   overflow: hidden;
+   min-width: 980px;
+}
+#githublogo{
+	position: absolute;
+	bottom: -2.5px;
+	right: 10px;
+}
+
+#nav{
+	position: relative;
+	height: 80px;
+	width: 980px;
+	margin: auto;
+}
+
+#mylogo{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+}
+#navbar{
+	list-style: none;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+#navbar li{
+	display: inline;
+	font-size: 14px;
+	margin-left: 28px;
+}
+.navlink{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/*************footer导航条样式**************/
+#footer{
+	background-color: #000000;
+	font-size: 14px;
+	color: #FFFFFF;
+	min-width: 980px;
+	clear: both;
+}
+#footernavbar{
+	border-bottom: solid #696969 1px;
+	font-size: 14px;
+	padding: 0.5em;
+	list-style: none;
+	text-align: center;
+}
+#footernavbar li{
+	display: inline;
+	margin-left: 28px;
+}
+#reference{
+	overflow: hidden;
+	padding-top: 40px; 
+	width: 980px;
+	margin: auto;
+}
+ul.referencenav{
+	float: left;
+	list-style: none;
+	margin-right: 130px;
+}
+ul.referencenav li{
+	margin-bottom: 14px;
+}
+ul.referencenav h4{
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+a.referencelink{
+	color: #FFFFFF;
+	
+}
+#footermassage{
+	text-align: center;
+	margin-top: 100px;
+}
+#footermassage p{
+	margin-bottom: 28px;
+}
+
+/*************正文部分样式**************/
+#mainsection{
+	width: 980px;
+	margin: 100px auto 30px auto;
+}
+/******成长轨迹样式*******/
+#aboutme{
+	position: relative;
+	background-image: url(../img/aboutbar.jpg);
+	padding-top: 140px;
+	padding-bottom: 200px;
+}
+img#headpic{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -60px;
+	margin: auto;
+}
+.aboutcontent{
+	width: 746px;
+	margin: 0 auto 30px auto;
+	position: relative;
+	overflow: hidden;
+}
+.leftbox{
+	float: left;
+	width: 320px;
+	padding-right: 50px;
+}
+.rightbox{
+	float: right;
+	width: 320px;
+	padding-left: 50px;
+}
+.leftbox h2{
+	font-size: 20px;
+	font-weight: normal;
+	text-align: right;
+}
+.rightbox p{
+	font-size: 14px;
+	line-height: 1.5em;
+	text-indent: 2em;
+}
+.rightbox ul{
+	list-style: none;
+}
+.rightbox li{
+	padding: 0.5em 0 0.5em 0;
+}
+.aboutimg{
+	display: block;
+	clear: both;
+	margin: 0 auto 20px auto;
+}
