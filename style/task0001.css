@@ -1,0 +1,38 @@
+html{
+	background-color: gray;
+}
+
+body{
+	background-color: pink;
+	
+	
+}
+div{
+	background-color: red;
+    width: 960px;
+    position: absolute;  
+    height: 400px;
+	margin: auto;/*当绝对定位元素的margin设置为auto，而且要求其垂直居中时，其包含块必须声明高度；如果不声明包含块高度，则绝对定位元素的margin-top和margin-bottom不能设置为auto，要设置为绝对定位元素高度的一半。也就是说用绝对定位使元素垂直居中，必须设置绝对定位元素的高度，包含块的高度视情况决定是否要声明。*/
+	top: 0px;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+}
+h1{
+	color: blue;
+	background-color: gray;
+}
+h2{
+	font-size: 14px;
+}
+p{
+	font-size: 12px;
+	color: yellow;
+	background-color: black;
+	text-align: center;/*只居中文本*/
+}
+img{
+	border: solid black 2px;
+	width: 10%;
+	
+}

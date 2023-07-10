@@ -1,0 +1,193 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: SimSun;
+}
+/*************头部导航条样式**************/
+#header{
+   height: 80px;
+   background-color: #003377;
+   position: relative;
+   overflow: hidden;
+   min-width: 980px;
+}
+#githublogo{
+	position: absolute;
+	bottom: -2.5px;
+	right: 10px;
+}
+
+#nav{
+	position: relative;
+	height: 80px;
+	width: 980px;
+	margin: auto;
+}
+
+#mylogo{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+}
+#navbar{
+	list-style: none;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+#navbar li{
+	display: inline;
+	font-size: 14px;
+	margin-left: 28px;
+}
+.navlink{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/*************footer导航条样式**************/
+#footer{
+	background-color: #000000;
+	font-size: 14px;
+	color: #FFFFFF;
+	min-width: 980px;
+}
+#footernavbar{
+	border-bottom: solid #696969 1px;
+	font-size: 14px;
+	padding: 0.5em;
+	list-style: none;
+	text-align: center;
+}
+#footernavbar li{
+	display: inline;
+	margin-left: 28px;
+}
+#reference{
+	overflow: hidden;
+	padding-top: 40px; 
+	width: 980px;
+	margin: auto;
+}
+ul.referencenav{
+	float: left;
+	list-style: none;
+	margin-right: 130px;
+}
+ul.referencenav li{
+	margin-bottom: 14px;
+}
+ul.referencenav h4{
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+a.referencelink{
+	color: #FFFFFF;
+	
+}
+#footermassage{
+	text-align: center;
+	margin-top: 100px;
+}
+#footermassage p{
+	margin-bottom: 28px;
+}
+
+/*************主页正文部分样式**************/
+#mainsection{
+	background-color: #D3D3D3;
+	min-width: 980px;
+}
+/*****正文部分背景大图样式******/
+#indexbigimg{
+	position: relative;
+	background-image: url(../img/486.jpg);
+	height: 587px;
+	color: #000000;
+}
+#formaltext{
+	position: absolute;
+	width: 350px;
+	bottom: 0;
+	right: 193px;
+	padding: 10px 10px 30px 10px;
+	background: linear-gradient(to bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.5),rgba(255,255,255,0));/***背景透明渐变***/
+}
+#formaltext h3 {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: right;
+	margin-bottom: 12px;
+}
+#formaltext p{
+	font-size: 12px;
+    line-height: 150%;
+} 
+/*****正文部分三列等高样式******/
+#threeequalheight{
+	overflow: hidden;
+	width: 980px;
+	margin: auto;
+}
+.equalheight{
+	background-color: #FFFFFF;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 10px 10px 10000px 10px;
+	margin-bottom: -10000px;
+}
+.inner{
+	border-bottom: solid #FFFFFF 25px;/**文字距离底部25px**/
+}
+#rightsection{
+	margin-right: 0;
+}
+.equalimg{
+	display: block;
+	margin-bottom: 15px;
+}
+.equalheight p{
+	padding: 0 20px 0 20px;
+	line-height: 170%;
+	font-size: 12px;
+	text-indent: 2em;
+}
+
+/*****正文部分自我介绍样式******/
+#selfcontiner{
+	position: relative;
+	background-color: #FFFFFF;
+
+	padding-top: 160px;
+	padding-bottom: 160px;
+	margin-top: 100px;
+}
+#headpic{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -50px;
+	margin: auto;
+}
+#selfintruction{
+	
+	
+}
+#selfintruction h2{
+	font-weight: normal;
+	font-size: 20px;
+	font-family: Future"Century, Gothic", AppleGothic, sans-serif;
+	margin-bottom: 50px;
+	text-align: center;
+}
+#selfintruction p{
+	width: 600px;
+	font-size: 14px;
+	line-height: 170%;
+	text-indent: 2em;
+	margin: auto;
+}
